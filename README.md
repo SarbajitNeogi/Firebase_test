@@ -1,8 +1,7 @@
-# React + Vite
+# Firebase signup/login
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ firebase commands:-
+ Project overview , build , host to app,ios,web app 
+ Do as requested creating cli
+ As required do the necessary steps in the firebase app
+ In the vscode , firebase login/logout , firebase init hosting (no github hosting) , firebase deploy
