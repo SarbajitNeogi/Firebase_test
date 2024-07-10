@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Main Container */
+main {
+    background-color: #f0f0f0; /* Match body background */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit width */
+}
+
+/* Form Container */
+/* section {
+    background-color: #fff;
+   border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    width: 100%;
+} */
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Inputs */
+label {
+    margin-bottom: 6px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Text Links */
+.text-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-link a {
+    color: #007bff; /* Blue text */
+    text-decoration: none;
+}
+
+.text-link a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+nav {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Logout Button */
+nav button {
+    background-color: #dc3545; /* Red background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+nav button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
